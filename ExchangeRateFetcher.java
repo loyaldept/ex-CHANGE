@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class ExchangeRateFetcher {
-    private static final String API_KEY = "YOUR_API_KEY";
+    private static final String API_KEY = "f92f8e7a9c1931673b47bb35";
 
     public static double getExchangeRate(String fromCurrency, String toCurrency) throws IOException {
         String url = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + fromCurrency + "/" + toCurrency;
